@@ -45,7 +45,7 @@ const Presentation = () => {
 
     return (
         <>
-            <section className="flex flex-col w-full max-w-[1400px] mx-auto px-10 py-16 gap-12 mt-10 rounded-3xl border border-green-500/20 hover:border-green-500/30 transition-colors relative overflow-hidden">
+            <section id="presentation" className="flex flex-col w-full max-w-[1400px] mx-auto px-10 py-16 gap-12 mt-28 scroll-mt-24 rounded-3xl border border-green-500/20 hover:border-green-500/30 transition-colors relative overflow-hidden">
                 {/* Eliminated blue glow background */}
 
                 <div className="flex flex-col md:flex-row items-center justify-between w-full gap-12 relative z-10">
@@ -66,7 +66,7 @@ const Presentation = () => {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.4 }}
                             className="flex flex-wrap items-center gap-4">
-                            <a href="#github" className="flex items-center gap-2 px-6 py-3 bg-white text-black font-semibold rounded-lg hover:bg-[#ff0000ff] hover:text-white transition-colors">
+                            <a href="https://github.com/AnselmoAlmerco" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-3 bg-white text-black font-semibold rounded-lg hover:bg-[#ff0000ff] hover:text-white transition-colors">
                                 <FaGithub className="text-xl" />
                                 GitHub
                             </a>
